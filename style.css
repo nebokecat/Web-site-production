@@ -15,6 +15,7 @@ a {
 }
 
 
+
 /*header*/
 
 header {
@@ -224,4 +225,63 @@ nav {
 .profile-detail{
 	font-size: 16px;
 	margin-bottom:20px;
+}
+
+/*contact*/
+
+.contact{
+	width: 100%;
+}
+
+.contact-contents{
+	width:800px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.contact-section{
+	text-align: center;
+}
+
+.contact-item{
+	width:400px;
+	float: left;
+}
+
+.center{
+	margin: 0 auto;
+	width: 200px;
+}
+
+.contact-name{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.contact-detail{
+	text-decoration: underline;
+	margin-bottom:20px;
+	display: inline-block;
+}
+
+.social i{
+	float: left;
+	margin-right: 20px;
+	font-size: 50px;
+	color:black;
+}
+
+/*footer*/
+
+footer{
+	height: 60px;
+	background-color: #ec715f;
+	width: 100%;
+}
+
+.footer-text{
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
 }
