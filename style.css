@@ -80,7 +80,7 @@ nav {
 	padding:90px 0;
 }
 
-.portfolio-title {
+.contents-title {
 	font-size: 32px;
 }
 
@@ -88,11 +88,11 @@ nav {
 	height: 8px;
 	width: 70px;
 	border-bottom: 3px solid #ec715f;
-	margin-bottom:30px;
 	display: inline-block;
+	margin-bottom:30px;
 }
 
-.portfolio-text {
+.contents-text {
 	font-size: 16px;
 	margin-bottom:30px;
 }
@@ -146,4 +146,82 @@ nav {
 	background-image: url(img/webcamp-mother.png);
 	background-size: cover;
 	background-position: center;
+}
+
+/*feature*/
+
+.feature {
+	width: 980px;
+	margin: 90px auto;
+}
+
+.feature-section{
+	color: #000;
+	text-align: center;
+}
+
+.feature-type {
+	width: 320px;
+	margin-right:10px;
+	text-align: center;
+	float: left;
+}
+
+.feature-type:nth-child(3)
+{
+	margin-right: 0;
+}
+
+.feature-icon{
+	font-size: 60px;
+}
+
+.feature-title{
+	font-size:20px;
+	margin:10px 0;
+}
+
+.feature-text{
+	text-align: left;
+	font-size: 16px;
+}
+
+/*profile*/
+
+.profile{
+	width: 100%;
+	background-color: #eceff1;
+	text-align: center;
+}
+
+.profile-contents{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.profile-item{
+	width: 512px;
+	float: left;
+}
+
+.profile-img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.profile-text{
+	text-align: left;
+	color: #000;
+}
+
+.profile-name{
+	font-size: 20px;
+	margin-bottom:5px;
+}
+
+.profile-detail{
+	font-size: 16px;
+	margin-bottom:20px;
 }
