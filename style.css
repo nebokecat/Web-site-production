@@ -13,3 +13,137 @@
 a {
 	text-decoration: none;
 }
+
+
+/*header*/
+
+header {
+	height: 70px;
+	width: 100%;
+	background-color: #ec715f;
+}
+
+nav {
+	margin: 0 auto;
+	width: 1024px;
+	font-size: 16px;
+	line-height: 70px;
+	color: #fafafa;
+}
+
+.header-logo {
+	height: 70px;
+}
+
+.nav-list {
+	float: right;
+	list-style: none;
+}
+
+.nav-list-item {
+	float: left;
+	margin:0 30px;
+}
+
+/*main-visual*/
+
+.main-visual{
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	color: #fafafa;
+	text-align: center;
+	padding-top:200px;
+}
+
+.main-visual-title{
+	font-size: 64px;
+	margin-bottom:10px;
+}
+
+.main-visual-text{
+	font-size: 20px;
+}
+
+.portfolio {
+	background-color: #eceff1;
+	width: 100%;
+	color: #000;
+	text-align: center;
+}
+
+.portfolio-contents {
+	width:920px;
+	margin:0 auto;
+	padding:90px 0;
+}
+
+.portfolio-title {
+	font-size: 32px;
+}
+
+.title-line {
+	height: 8px;
+	width: 70px;
+	border-bottom: 3px solid #ec715f;
+	margin-bottom:30px;
+	display: inline-block;
+}
+
+.portfolio-text {
+	font-size: 16px;
+	margin-bottom:30px;
+}
+
+.portfolio-img{
+	height: 250px;
+	width: 300px;
+	float:left;
+	margin-right: 10px;
+}
+
+.portfolio-img:nth-child(3n){
+	margin-right:0;
+}
+
+.portfolio-img:nth-child(-n+3){
+	margin-bottom:10px;
+}
+
+.img1{
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img2{
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.img3{
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img4{
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.img5{
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img6{
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+}
